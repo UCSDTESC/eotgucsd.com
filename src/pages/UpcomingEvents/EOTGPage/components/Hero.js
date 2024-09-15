@@ -70,7 +70,7 @@ class Hero extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="floating justify-content-center">
+                    {/* <Row className="floating justify-content-center">
                         <Col>
                         <img
                                 src={BottomLeftCloud}
@@ -85,7 +85,7 @@ class Hero extends React.Component {
                                 className="eotg-hero__graphic"
                             />
                         </Col>
-                    </Row>
+                    </Row> */}
                 </Container>
             </section>
         );
