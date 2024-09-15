@@ -11,7 +11,7 @@ class Footer extends React.Component {
                             Talk to us at{' '}
                             <a
                                 className="eotg-contact__link"
-                                href="mailto:shreya@tesc.ucsd.edu"
+                                href="mailto:contact@tesc.ucsd.edu"
                             >
                                 contact@tesc.ucsd.edu
                             </a>{' '}
