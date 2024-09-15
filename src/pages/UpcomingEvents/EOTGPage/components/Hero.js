@@ -2,7 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import $ from 'jquery';
 
-import BearIsland from '../svg/bear-island-fall.svg';
+// import BearIsland from '../svg/bear-island-fall.svg';
+import BearFrame from '../svg/bear-island-fall.svg';
 import BottomLeftCloud from '../svg/cloud-bottom-left.svg';
 import BottomRightCloud from '../svg/cloud-bottom-right.svg';
 
@@ -23,7 +24,7 @@ class Hero extends React.Component {
                     <Row className="justify-content-center">
                         <Col md={6}>
                             <img
-                                src={BearIsland}
+                                src={BearFrame}
                                 alt=""
                                 className="eotg-hero__graphic"
                             />
