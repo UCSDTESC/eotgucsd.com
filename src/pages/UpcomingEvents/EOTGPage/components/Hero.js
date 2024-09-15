@@ -37,8 +37,8 @@ class Hero extends React.Component {
                                     <b> Engineers on the Green </b>
                                 </div>
                                 <div className="eotg-hero__detail">
-                                    October 3rd, 2023<br></br> 
-                                    10 AM - 2 PM <br></br>
+                                    October 1st, 2024<br></br> 
+                                    11 AM - 3 PM <br></br>
                                     Warren Mall
                                 </div>
                                 {/* FOR FACEBOOK BUTTON:
