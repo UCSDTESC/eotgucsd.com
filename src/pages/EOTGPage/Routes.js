@@ -17,6 +17,7 @@ class EOTGRoutes extends React.Component {
     render() {
         return (
             <Switch>
+                <Route path="/" exact component={this.withEOTGLayout(EOTGPage)}/>
                 <Route path="/eotg/" exact component={this.withEOTGLayout(EOTGPage)}/>
             </Switch>
         )
