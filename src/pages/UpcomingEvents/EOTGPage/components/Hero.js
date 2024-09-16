@@ -23,12 +23,11 @@ class Hero extends React.Component {
             <section className="eotg-hero">
                 <Container className="text-center eotg-hero__container" fluid>
                     <Row className="justify-content-center">
-                        <Col md={6} style={{ position: 'relative' }}>
+                        <Col md={6} className="d-flex flex-column justify-content-between">
                             <img
                                 src={BearPlatform}
                                 alt=""
                                 className="eotg-hero__graphic"
-                                style={{ position: 'absolute', bottom: 0, left: '50%', transform: 'translateX(-50%)' }}
                             />
                         </Col>
                         <Col
