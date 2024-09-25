@@ -5,8 +5,8 @@ import $ from 'jquery';
 // import BearIsland from '../svg/bear-island-fall.svg';
 // import BearFrame from '../svg/bear-frame.svg';
 import BearPlatform from '../svg/bear-platform.svg';
-import BottomLeftCloud from '../svg/cloud-bottom-left.svg';
-import BottomRightCloud from '../svg/cloud-bottom-right.svg';
+// import BottomLeftCloud from '../svg/cloud-bottom-left.svg';
+// import BottomRightCloud from '../svg/cloud-bottom-right.svg';
 
 class Hero extends React.Component {
     scrollAnimation() {
@@ -22,8 +22,8 @@ class Hero extends React.Component {
         return (
             <section className="eotg-hero">
                 <Container className="text-center eotg-hero__container" fluid>
-                    <Row className="justify-content-center">
-                        <Col md={6} className="d-flex flex-column justify-content-between">
+                    <Row className="justify-content-center eotg-hero__row">
+                        <Col md={6} className="d-flex flex-column justify-content-end">
                             <img
                                 src={BearPlatform}
                                 alt=""
