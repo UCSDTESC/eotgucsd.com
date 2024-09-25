@@ -21,7 +21,7 @@ class Hero extends React.Component {
     render() {
         return (
             <section className="eotg-hero">
-                <Container className="text-center eotg-hero__container" fluid>
+                <div className="text-center eotg-hero__container">
                     <Row className="justify-content-center eotg-hero__row">
                         <Col md={6} className="d-flex flex-column justify-content-end">
                             <img
@@ -86,7 +86,7 @@ class Hero extends React.Component {
                             />
                         </Col>
                     </Row> */}
-                </Container>
+                </div>
             </section>
         );
     }
