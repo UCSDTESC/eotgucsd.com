@@ -1,10 +1,10 @@
 .eotg-hero {
-    //background-image: url(../../../../pages/EOTGPage/svg/bear-island-fall);
+    background-image: url(../../../../pages/UpcomingEvents/EOTGPage/svg/bg-sunset.svg);
     background-size: cover;
-    background: $eotg-blue;
+    // background: $eotg-blue;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    // align-items: center;
     position: relative;E
 
     &__container {
@@ -12,10 +12,14 @@
         height: 100%;
     }
 
+    &__row {
+        height: 100%;
+    }
+
     &__title {
         font-size: 3rem;
         font-family: 'Ubuntu', sans-serif ;
-        color: #E8F7FA;
+        color: #264653;
         //https://www.geeksforgeeks.org/css-floating-animation/ FOR BOBBING ANIM
         animation-name: floating;
         animation-duration: 3s;
@@ -32,8 +36,9 @@
 
     &__graphic {
         width: 100%;
-        margin: 0 auto;
-        margin-top: 5rem;
+        //margin: 0 auto;
+        //margin-top: 5rem;
+        align-self: flex-end;
     }
 
     &__logo {
@@ -43,7 +48,7 @@
     &__detail {
         font-size: 1.5rem;
         font-family: 'Ubuntu', sans-serif;
-        color: #E8F7FA;
+        color: #264653;
     }
 
     &__button_div {

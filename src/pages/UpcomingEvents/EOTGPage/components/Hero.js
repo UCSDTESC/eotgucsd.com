@@ -2,9 +2,11 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import $ from 'jquery';
 
-import BearIsland from '../svg/bear-island-fall.svg';
-import BottomLeftCloud from '../svg/cloud-bottom-left.svg';
-import BottomRightCloud from '../svg/cloud-bottom-right.svg';
+// import BearIsland from '../svg/bear-island-fall.svg';
+// import BearFrame from '../svg/bear-frame.svg';
+import BearPlatform from '../svg/bear-platform.svg';
+// import BottomLeftCloud from '../svg/cloud-bottom-left.svg';
+// import BottomRightCloud from '../svg/cloud-bottom-right.svg';
 
 class Hero extends React.Component {
     scrollAnimation() {
@@ -19,11 +21,11 @@ class Hero extends React.Component {
     render() {
         return (
             <section className="eotg-hero">
-                <Container className="text-center eotg-hero__container" fluid>
-                    <Row className="justify-content-center">
-                        <Col md={6}>
+                <div className="text-center eotg-hero__container">
+                    <Row className="justify-content-center eotg-hero__row">
+                        <Col md={6} className="d-flex flex-column justify-content-end">
                             <img
-                                src={BearIsland}
+                                src={BearPlatform}
                                 alt=""
                                 className="eotg-hero__graphic"
                             />
@@ -68,7 +70,7 @@ class Hero extends React.Component {
                             </div>
                         </Col>
                     </Row>
-                    <Row className="floating justify-content-center">
+                    {/* <Row className="floating justify-content-center">
                         <Col>
                         <img
                                 src={BottomLeftCloud}
@@ -83,8 +85,8 @@ class Hero extends React.Component {
                                 className="eotg-hero__graphic"
                             />
                         </Col>
-                    </Row>
-                </Container>
+                    </Row> */}
+                </div>
             </section>
         );
     }
