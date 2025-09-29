@@ -16,7 +16,7 @@ class About extends React.Component {
                             Engineers on the Green is an annual event held in Fall and Winter quarter 
                             where students can network with the various engineering orgs on campus. 
                             This event will take place in person at Warren Mall
-                            on October 1st, 2024 from 11 AM to 3 PM.
+                            on September 30th, 2025 from 11 AM to 3 PM.
                         </p>
                         
                     </div>

@@ -4,7 +4,8 @@ import $ from 'jquery';
 
 // import BearIsland from '../svg/bear-island-fall.svg';
 // import BearFrame from '../svg/bear-frame.svg';
-import BearPlatform from '../svg/bear-platform.svg';
+// import BearPlatform from '../svg/bear-platform.svg';
+import BearBlocks from '../svg/bear-blocks.svg';
 // import BottomLeftCloud from '../svg/cloud-bottom-left.svg';
 // import BottomRightCloud from '../svg/cloud-bottom-right.svg';
 
@@ -25,7 +26,7 @@ class Hero extends React.Component {
                     <Row className="justify-content-center eotg-hero__row">
                         <Col md={6} className="d-flex flex-column justify-content-end">
                             <img
-                                src={BearPlatform}
+                                src={BearBlocks}
                                 alt=""
                                 className="eotg-hero__graphic"
                             />
@@ -39,7 +40,7 @@ class Hero extends React.Component {
                                     <b> Engineers on the Green </b>
                                 </div>
                                 <div className="eotg-hero__detail">
-                                    October 1st, 2024<br></br> 
+                                    September 30th, 2025<br></br> 
                                     11 AM - 3 PM <br></br>
                                     Warren Mall
                                 </div>

@@ -43,7 +43,7 @@ class Footer extends React.Component {
                             <li className="footer__link-item footer__link-item--logo">
                                 <a
                                     className="footer__link"
-                                    href="http://tesc.ucsd.edu"
+                                    href="https://tescatucsd.org/"
                                     target="_new"
                                 >
                                     <img src="/tesc-logo.png" alt="tesc-logo" />
@@ -53,7 +53,7 @@ class Footer extends React.Component {
                                 <a
                                     className="footer__link"
                                     target="_new"
-                                    href="https://instagram.com/ucsdtesc/"
+                                    href="https://www.instagram.com/tesc.at.ucsd/"
                                 >
                                     <i className="fab fa-instagram"></i>
                                 </a>

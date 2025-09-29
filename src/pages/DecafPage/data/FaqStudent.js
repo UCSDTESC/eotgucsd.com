@@ -14,7 +14,7 @@ const studentFaq = [
             <>
                 Follow our{' '}
                 <a
-                    href="https://www.instagram.com/ucsdtesc/"
+                    href="https://www.instagram.com/tesc.at.ucsd/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

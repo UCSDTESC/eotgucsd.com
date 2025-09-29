@@ -41,7 +41,7 @@ const Orgs = () => {
                         */}
                         <li className="active">
                             <a data-toggle="tab" href="#tuesday">
-                                Tuesday, Oct. 1st
+                                Tuesday, Sept. 30th
                             </a>
                         </li>
                     </ul>
@@ -57,7 +57,7 @@ const Orgs = () => {
                         */}
                         <div id="tuesday" className="tab-pane fade show active">
                             <div className="eotg-attending-orgs__day">
-                                Tuesday, Oct. 1st
+                                Tuesday, Sept. 30th
                             </div>
                             {renderDay('tue')}
                         </div>
