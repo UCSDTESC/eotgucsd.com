@@ -13,12 +13,12 @@ class About extends React.Component {
                             About Engineers on the Green
                         </h1>
                         <p className="mt-5">
-                            Engineers on the Green is an annual event held in Fall and Winter quarter 
-                            where students can network with the various engineering orgs on campus. 
-                            This event will take place in person at Warren Mall
-                            on September 30th, 2025 from 11 AM to 3 PM.
+                            Engineers on the Green is an annual event held in
+                            Fall and Winter quarter where students can network
+                            with the various engineering orgs on campus. This
+                            event will take place in person at Warren Mall on
+                            January 8th, 2026 from 11 AM to 3 PM.
                         </p>
-                        
                     </div>
                 </div>
             </section>

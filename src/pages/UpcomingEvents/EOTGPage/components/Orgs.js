@@ -28,7 +28,7 @@ const Orgs = () => {
                     Engineers on the Green will be in person at the Warren Mall this fall, 
                     and we have the following organizations on the roster!
                 </div>
-                
+
                 <div className="row justify-content-center">
                     {/* The nav bar tabs that display days */}
                     <ul className="nav nav-tabs eotg-attending-orgs__tabs justify-content-center align-items-end mt-4">
@@ -41,7 +41,7 @@ const Orgs = () => {
                         */}
                         <li className="active">
                             <a data-toggle="tab" href="#tuesday">
-                                Tuesday, Sept. 30th
+                                Thursday, Jan. 8th
                             </a>
                         </li>
                     </ul>
@@ -57,7 +57,7 @@ const Orgs = () => {
                         */}
                         <div id="tuesday" className="tab-pane fade show active">
                             <div className="eotg-attending-orgs__day">
-                                Tuesday, Sept. 30th
+                                {/* Tuesday, Sept. 30th */}
                             </div>
                             {renderDay('tue')}
                         </div>
