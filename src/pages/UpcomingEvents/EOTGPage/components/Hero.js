@@ -41,7 +41,7 @@ class Hero extends React.Component {
                                 </div>
                                 <div className="eotg-hero__detail">
                                     January 8th, 2026<br></br>
-                                    11 AM - 3 PM <br></br>
+                                    11 AM - 2:30 PM <br></br>
                                     Warren Mall
                                 </div>
                                 {/* FOR FACEBOOK BUTTON:

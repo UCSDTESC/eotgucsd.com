@@ -17,7 +17,7 @@ class About extends React.Component {
                             Fall and Winter quarter where students can network
                             with the various engineering orgs on campus. This
                             event will take place in person at Warren Mall on
-                            January 8th, 2026 from 11 AM to 3 PM.
+                            January 8th, 2026 from 11 AM to 2:30 PM.
                         </p>
                     </div>
                 </div>
