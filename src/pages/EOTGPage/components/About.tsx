@@ -13,7 +13,7 @@ function About() {
                         Engineers on the Green is an annual event held in Fall
                         and Winter quarter where students can network with the
                         various engineering orgs on campus. This event will take
-                        place in person at Warren Mall on January 8th, 2026 from
+                        place in person at Warren Mall on September 29th, 2026 from
                         11 AM to 2:30 PM.
                     </p>
                 </div>

@@ -17,7 +17,7 @@ function Hero() {
                     <b>Engineers on the Green</b>
                 </div>
                 <div className="text-2xl">
-                    January 8th, 2026
+                    September 29th, 2026
                     <br />
                     11 AM - 2:30 PM
                     <br />

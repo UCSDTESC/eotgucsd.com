@@ -29,7 +29,7 @@ function Orgs() {
                     <ul className="mt-4 flex min-h-0 list-none flex-wrap items-end justify-center border-0 p-0 max-sm:min-h-32">
                         <li className="mx-2 rounded-2xl border border-solid border-white">
                             <span className="inline-block px-2 align-bottom text-[1.1rem] font-bold text-white">
-                                Thursday, Jan. 8th
+                                Tuesday, Sept. 29th
                             </span>
                         </li>
                     </ul>

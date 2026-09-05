@@ -9,10 +9,10 @@ function FaqItem({ question, answer }: FaqItemProps) {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="mb-8 rounded-xl border-2 border-solid border-white bg-white text-left font-ubuntu text-[1.2rem]">
+        <div className="mb-8 cursor-pointer rounded-xl border-2 border-solid border-white bg-white text-left font-ubuntu text-[1.2rem]">
             <button
                 type="button"
-                className="mx-8 my-[0.8rem] flex w-[calc(100%-4rem)] flex-wrap justify-center text-center text-[1.4rem] font-extrabold text-eotg-green hover:no-underline"
+                className="mx-8 my-[0.8rem] flex w-[calc(100%-4rem)] cursor-pointer flex-wrap justify-center text-center text-[1.4rem] font-extrabold text-eotg-green hover:no-underline"
                 aria-expanded={open}
                 onClick={() => setOpen((prev) => !prev)}
             >
@@ -23,11 +23,17 @@ function FaqItem({ question, answer }: FaqItemProps) {
                     }`}
                 />
             </button>
-            {open && (
-                <div className="mx-8 pb-4 text-eotg-green">
-                    <p>{answer}</p>
+            <div
+                className={`grid transition-[grid-template-rows] duration-300 ease-in-out ${
+                    open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'
+                }`}
+            >
+                <div className="overflow-hidden">
+                    <div className="mx-8 pb-4 text-eotg-green">
+                        <p>{answer}</p>
+                    </div>
                 </div>
-            )}
+            </div>
         </div>
     );
 }
