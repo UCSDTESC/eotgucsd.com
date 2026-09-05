@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-eotg-green: #71c167;
+    --color-eotg-blue: #84dadf;
+    --color-eotg-ice: #e8f7fa;
+    --color-eotg-navy: #264653;
+    --color-tesc-blue: #004e74;
+    --color-tesc-light-blue: #00488e;
+    --color-tesc-red: #ff6e74;
+    --font-ubuntu: 'Ubuntu', sans-serif;
+    --font-cabin: 'Cabin', sans-serif;
+    --font-work: 'Work Sans', sans-serif;
+    --animate-float: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+@layer base {
+    html,
+    body,
+    #app {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: var(--font-work);
+        background-color: #fff;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-cabin);
+        font-weight: 600;
+    }
+
+    #app {
+        display: flex;
+        flex-direction: column;
+    }
+}
